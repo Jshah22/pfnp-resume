@@ -2,13 +2,49 @@ body {
 	text-align: center;
 }
 
-#first {
-	color: red
+ol {
+	list-style-position: inside; 
+	font-family: comic sans ms;
+}
+.current {
+	color: white  
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 10px solid black;
+	float: none;
 
 }
 
-.current {
-	border: 1px solid black;
+
+.title{
+	color: gray
+}
+
+a {
+	color: blue
+}
+
+body {
+	background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRniNrua4lj1560PsxdV8_znO5kqIONegid3VUfTH3Dx_t3ML15);
+}
+
+nav {
+	background-color: gray;
+}
+
+.nav-items {
+	display: inline;
+	margin: 10px
+}
+#about {
 	width: 49%;
 	display: inline-block;
+	border: 1px solid black;
+}
+#music {
+	width: 49%;
+	display: inline-block;
+	border: 1px solid black;
 }
